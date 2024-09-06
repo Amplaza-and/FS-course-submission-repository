@@ -1,0 +1,100 @@
+
+a { text-decoration: none; color: #666;}
+
+a:hover {
+	cursor: pointer; 
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6c758c;
+	background: #edeef1;
+	line-height: 120%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-family: Tahoma;
+}
+
+h1 { font-size: 3em; }
+
+h1, h2, h3, h4, h5, p, ul { margin: 0 0 10px 0; }
+
+h2 { font-size: 2.4em; }
+
+h3 { font-size: 1.8em; }
+
+h4 { font-size: 1.4em; text-transform: uppercase; }
+
+ul li { margin-left: 15px; margin-bottom: 5px; }
+
+.button {
+	padding: 2px 8px;
+	border: 1px solid #47210C;
+	background: url(../images/but-bg.gif) repeat-x center #4F2F1D;
+	font-variant: small-caps;
+	color: #F8B150;
+}
+
+.clr { clear: both; }
+
+.inputbox {
+	border: 1px solid #47210C;
+	padding: 3px 2px;
+	background: #8A5C2B;
+}
+
+.black {
+	color: #000;
+}
+
+.b {
+	font-weight: bold;
+}
+
+.white {
+	color: #fff;
+}
+
+.f13 {
+	font-size: 13px;
+}
+
+.red {
+	color: #990d0c;
+}
+
+#resol {
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	position:fixed;
+	font-size: 10px;
+	width:230px;
+	top:0px;
+	left:1280px;
+	margin:0 auto;
+	background:#bfc6d9;
+	text-align:center;
+} 
+
+#resol h1 {
+	background:none;
+	font-size: 15px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+} 
+
+#resol h2 {
+	font-size:10px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	background:none;
+}
